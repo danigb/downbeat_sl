@@ -1,4 +1,4 @@
-madmom==git+https://github.com/CPJKU/madmom.git@main
+madmom=="git+https://github.com/CPJKU/madmom.git@main"
 pandas==1.5.3
 streamlit==1.20.0
 cython==0.29.33
