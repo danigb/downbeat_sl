@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 streamlit = "1.20.0"
+Cython = "0.29.33"
+librosa = "0.10.0"
+madmom = "git+https://github.com/CPJKU/madmom.git@main"
 
 [dev-packages]
 
