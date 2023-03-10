@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+Cython= "0.29.24"
 streamlit = "1.20.0"
 librosa = "0.10.0"
-madmom = "0.16.1"
+madmom = "madmom @ git+https://git@github.com:CPJKU/madmom.git@main#egg=madmom"
 
 [dev-packages]
 
