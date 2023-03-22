@@ -4,12 +4,20 @@
 
 ## Setup
 
-Used pip. Open Pipfile to see dependencies
+Used pipenv for dependencies:
+
+```bash
+pipenv shell
+pipenv install
+```
 
 ## Run
 
-```
+```bash
 streamlit run app.py
+
+# Alternatively
+pipenv run streamlit run app.py
 ```
 
 ## Devlog
